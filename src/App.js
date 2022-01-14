@@ -1,23 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+
+//Components
+import Header from './components/header/Header';
+import Skills from './components/Skills/Skills';
+import Footer from './components/Footer/Footer';
+
+//Assets
+import Portada from "./Assets/1905.i126.005_programmer work.jpg"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="w-screen h-auto flex flex-col justify-center content-center aling-center">
+      <div className="w-100 h-80 flex">
+        <img className="object-cover"  src={Portada} alt='https://www.freepik.es/vectores/trabajo' />
+      </div>
+      <Header />
+      <Skills />
+      <Footer />
     </div>
   );
 }
