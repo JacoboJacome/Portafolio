@@ -15,7 +15,7 @@ const Footer = () => {
                     </div>
                     <div className="flex md:flex-wrap w-full md:mx-auto py-5">
                         <div className="w-4/5 md:w-7/8 mx-auto text-justify font-mono font-medium">
-                            <p>Soy Jacobo Jácome, un joven de 24 años, casado, con un pequeño hijo que me motiva a mejorar constantemente.
+                            <p>Soy Jacobo Jácome, tengo de 24 años, estoy casado y tengo un pequeño hijo que me motiva a mejorar constantemente.
                              Actualmente estudio Desarrollo web Full Stack en Academlo, conciente que el campo en el que deseo laborar
                              es un no parar de estudiar y capacitarme lo cual me resulta muy interesante. Me gustan los retos, poder 
                              aprender de ellos, se trabajar en equipo y estoy dispuesto a aprender de mis compañeros y superiores todo 
