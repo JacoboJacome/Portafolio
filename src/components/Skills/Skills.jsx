@@ -13,13 +13,13 @@ import SASS from "../../Assets/sass-1.svg"
 
 const Skills = () => {
     return (
-        <div className="bg-cyan-700 ">
+        <div className="bg-cyan-700 box-content">
             <div className="flex w-screen">
                 <h3 className="font-bold mx-auto text-3xl sm:text-4xl text-color_4">Tecnologías</h3>
             </div>
-            <div className="flex flex-wrap w-screen justify-evenly content-center mx-auto py-5">
-                <div className="w-1/5 m-4 flex flex-col md:w-1/12 bg-color_4/20 rounded-lg shadow-xl shadow-color_4/20 hover:bg-color_4/40 hover:-translate-y-2 hover:scale-110 transition ease-in-out delay-150 text-white/0 hover:text-white hover:text-xl">
-                    <img src={HTML5} alt="Html 5" className="my-auto p-2"/>
+            <div className="flex flex-wrap w-screen justify-center content-center mx-auto py-5">
+                <div className="w-1/5 my-4 mr-4 flex flex-col md:w-1/12 bg-color_4/20 rounded-lg shadow-xl shadow-color_4/20 hover:bg-color_4/40 hover:-translate-y-2 hover:scale-110 transition ease-in-out delay-150 text-white/0 hover:text-white hover:text-xl">
+                    <img src={HTML5} alt="Html 5" className="my-auto py-2 pr-2"/>
                     <span className="mx-auto font-bold">HTML 5</span>
                 </div>
                 <div className="w-1/5 m-4 flex flex-col md:w-1/12 bg-color_4/20 rounded-lg shadow-xl shadow-color_4/20 hover:bg-color_4/40 hover:-translate-y-2 hover:scale-110 transition ease-in-out delay-150 text-white/0 hover:text-white hover:text-xl ">
@@ -46,8 +46,8 @@ const Skills = () => {
                     <img src={BOOTSTRAP} alt="Bootstrap" className="my-auto p-2" />
                     <span className="mx-auto font-bold">Bootstrap</span>
                 </div>
-                <div className="w-1/5 m-4 flex flex-col  md:w-1/12 bg-color_4/20 rounded-lg shadow-xl shadow-color_4/20 hover:bg-color_4/40 hover:-translate-y-2 hover:scale-110 transition ease-in-out delay-150 text-white/0 hover:text-white hover:text-xl ">
-                    <img src={SASS} alt="Sass CSS" className="my-auto p-2" />
+                <div className="w-1/5 my-4 ml-4 flex flex-col  md:w-1/12 bg-color_4/20 rounded-lg shadow-xl shadow-color_4/20 hover:bg-color_4/40 hover:-translate-y-2 hover:scale-110 transition ease-in-out delay-150 text-white/0 hover:text-white hover:text-xl ">
+                    <img src={SASS} alt="Sass CSS" className="my-auto pl-2" />
                     <span className="mx-auto font-bold">Sass</span>
                 </div>  
             </div>

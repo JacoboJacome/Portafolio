@@ -12,7 +12,7 @@ const Proyectos = () => {
                 <h2 className="text-cyan-700 text-3xl md:text-4xl font-bold">Proyectos</h2>
             </div>
             <div className="flex flex-col md:flex-row w-screen md:w-7/8 justify-center content-center my-4">
-                <div className="flex flex-col w-4/5 mx-auto md:w-1/4 my-10 md:my-1 justify-center content-center bg-gray-200/30 rounded-lg py-4 shadow-xl shadow-white">
+                <div className="flex flex-col w-4/5 mx-auto md:w-1/4 my-10 md:my-1 justify-evenly content-center bg-gray-200/30 rounded-lg py-4 shadow-xl shadow-gray-600/50">
                     <div className="flex w-52 mx-auto">
                         <img src={Ecommers} alt="E-commers"/>
                     </div>
@@ -22,7 +22,7 @@ const Proyectos = () => {
                         <button className="my-2"><a className="bg-cyan-700 py-1 px-3 rounded-full text-color_4 hover:bg-cyan-700/40 hover:text-black" target="_blank" rel="noreferrer" href="https://e-commers-alpha.vercel.app/">Ir a:</a></button>
                     </div>
                 </div>
-                <div className="flex flex-col w-4/5 mx-auto md:w-1/4 my-10 md:my-1 justify-center content-center bg-gray-200/30 rounded-lg py-4 shadow-xl shadow-white">
+                <div className="flex flex-col w-4/5 mx-auto md:w-1/4 my-10 md:my-1 justify-evenly content-center bg-gray-200/30 rounded-lg py-4 shadow-xl shadow-gray-600/50">
                     <div className="flex w-52 mx-auto">
                         <img src={Pexels} alt="Pexels Api"  />
                     </div>
@@ -32,7 +32,7 @@ const Proyectos = () => {
                         <button className="my-2"><a className="bg-cyan-700 py-1 px-3 rounded-full text-color_4 hover:bg-cyan-700/40 hover:text-black" target="_blank" rel="noreferrer" href="https://pexels-api.vercel.app/">Ir a:</a></button>
                     </div>
                 </div>
-                <div className="flex flex-col w-4/5 mx-auto md:w-1/4 my-10 md:my-1 justify-center content-center bg-gray-200/30 rounded-lg py-4 shadow-xl shadow-white">
+                <div className="flex flex-col w-4/5 mx-auto md:w-1/4 my-10 md:my-1 justify-evenly content-center bg-gray-200/30 rounded-lg py-4 shadow-xl shadow-gray-600/50">
                     <div className="flex w-52 mx-auto">
                         <img src={Github} alt="GitHub Api" />
                     </div>
