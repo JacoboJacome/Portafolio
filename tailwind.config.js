@@ -22,6 +22,11 @@ module.exports = {
       color_2: "#393E46",
       color_3: "#00ADB5",
       color_4: "#EEEEEE",
+      dark_1:"#041C32",
+      dark_2:"#04293A",
+      dark_3:"#064663",
+      dark_4:"#ECB365"
+
     },
   },
   plugins: [],
