@@ -1,46 +1,20 @@
-import React, { useState} from  "react"
+import React from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
-import './App.css';
+//Styles
+import "./App.css"
 
-//Components
-import Header from './components/header/Header';
-import Skills from './components/Skills/Skills';
-import Footer from './components/Footer/Footer';
-import Proyectos from './components/Proyectos/Proyectos';
+//Views
+import Home from './Views/Home/Home';
 
-//Assets
-import Portada from "./Assets/1905.i126.005_programmer work.jpg"
-
-function App() {
-
-    //States
-const [darkMode, setDarkMode] = useState(true)
-
-const handleDarkMode = (e) => {
-  e.preventDefault()
-  setDarkMode(!darkMode)
-}
-
+const App = () => {
   return (
-    <div className="w-screen h-auto flex flex-col justify-center content-center aling-center">
-      <div className="w-100 h-80 flex">
-        <img className="object-cover"  src={Portada} alt='https://www.freepik.es/vectores/trabajo' />
-      </div>
-      <Header
-        darkMode = {darkMode}
-        handleDarkMode ={handleDarkMode}
-        />
-      <Proyectos
-      darkMode = {darkMode}
-      />
-      <Skills
-      darkMode = {darkMode}
-      />
-      <Footer
-      darkMode = {darkMode}
-      />
-    </div>
-  );
-}
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" exact element={<Home />}/>
+      </Routes>
+    </BrowserRouter>
+  )
+};
 
 export default App;
