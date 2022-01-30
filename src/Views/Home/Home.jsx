@@ -20,7 +20,7 @@ const handleDarkMode = (e) => {
 }
 
   return (
-    <div className="w-screen h-auto flex flex-col justify-center content-center aling-center">
+    <div className="w-full h-auto flex flex-col justify-center content-center aling-center">
       <div className="w-100 h-80 flex">
         <img className="object-cover"  src={Portada} alt='https://www.freepik.es/vectores/trabajo' />
       </div>

@@ -1,5 +1,8 @@
 import React from 'react'
 
+//Styles
+import "./Footer"
+
 //Assets
 import Github from "../../Assets/github-icon-1.svg"
 import Gmail from "../../Assets/gmail-icon.svg"
@@ -14,7 +17,7 @@ const {darkMode} = props
 
 
     return (
-        <div className={`${darkMode ? "bg-color_4" : "bg-gray-700"} flex flex-col md:flex-row md:justify-center ms:content-center flex-wrap w-screen`}>
+        <div className={`${darkMode ? "bg-color_4" : "bg-gray-700"} flex flex-col md:flex-row md:justify-center ms:content-center flex-wrap w-full box-border font-text py-6`}>
             <div className="flex md:flex-row w-screen md:w-1/3 ">
                 <div className="flex flex-wrap w-full md:justify-center md:content-center md:flex-col">
                     <div className="flex w-full">
@@ -64,7 +67,7 @@ const {darkMode} = props
                 </div>
             </div>
             <div className="flex justify-center content-center mx-auto">
-                <span className={`${darkMode ? "text-cyan-700" : "text-gray-100"} mx-auto text-bold text-sm`}>Toda la Gloria sea para Dios</span>
+                <span className={`${darkMode ? "text-cyan-700" : "text-gray-100"} mx-auto text-bold text-sm mt-6`}>Toda la Gloria sea para Dios</span>
             </div>
         </div>
     )

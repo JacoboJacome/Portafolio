@@ -17,11 +17,11 @@ const Skills = props => {
 const {darkMode} = props
 
     return (
-        <div className={`${darkMode ? "bg-cyan-700" : "bg-dark_1"} w-screen`}>
+        <div className={`${darkMode ? "bg-cyan-700" : "bg-dark_1"} w-full box-border font-text py-6`}>
             <div className="flex w-full">
-                <h3 className={`${darkMode ? "text-cyan-700" : "text-dark_4"} font-bold mx-auto text-3xl sm:text-4xl`}>Tecnologías</h3>
+                <h3 className={`${darkMode ? "text-color_4" : "text-dark_4"} font-bold mx-auto text-3xl sm:text-4xl`}>Tecnologías</h3>
             </div>
-            <div className="flex flex-wrap w-screen justify-center content-center mx-auto py-5">
+            <div className="flex flex-wrap w-full justify-center content-center mx-auto py-5">
                 <div className="w-1/5 m-4 flex flex-col md:w-1/12 bg-color_4/20 rounded-lg shadow-xl shadow-color_4/20 hover:bg-color_4/40 hover:-translate-y-2 hover:scale-110 transition ease-in-out delay-150 text-white/0 hover:text-white hover:text-xl">
                     <img src={HTML5} alt="Html 5" className="my-auto p-2"/>
                     <span className="mx-auto font-bold">HTML 5</span>
