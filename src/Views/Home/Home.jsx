@@ -12,7 +12,7 @@ import Portada from "../../Assets/1905.i126.005_programmer work.jpg"
 function Home() {
 
     //States
-const [darkMode, setDarkMode] = useState(true)
+const [darkMode, setDarkMode] = useState(false)
 
 const handleDarkMode = (e) => {
   e.preventDefault()

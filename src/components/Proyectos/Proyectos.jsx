@@ -5,7 +5,7 @@ import "./proyectos.styles.css"
 
 //Assets
 import Pexels from "../../Assets/pexels-logo.jpg"
-import Github from "../../Assets/github-icon-1.svg"
+import Search from "../../Assets/search_user.png"
 import Ecommers from "../../Assets/Logo_e-commers.jpg"
 
 const Proyectos = props => {
@@ -40,12 +40,12 @@ const {darkMode} = props
                 </div>
                 <div className="flex flex-col w-4/5 mx-auto md:w-1/4 my-10 md:my-1 justify-evenly content-center bg-gray-200/30 rounded-lg py-4 shadow-xl shadow-gray-600/50">
                     <div className="flex w-3/4 mx-auto">
-                        <img src={Github} alt="GitHub Api" />
+                        <img src={Search} alt="GitHub Api" />
                     </div>
                     <div className="flex flex-col justify-center content-center mx-auto">
-                        <h3 className={`${darkMode ? "text-cyan-700" : "text-dark_4"} font-bold mx-auto font-text`}>Github Api</h3>
-                        <p className={`${darkMode ? "text-black" : "text-white"} text-justify w-3/4 mx-auto font-text`}>Consumo de Github Api para investigar usuarios, conocer repocitorios, seguidores y seguidos. Utilicé tecnologias como React Js, Tailwind.</p>
-                        <button className="my-2"><a className="bg-cyan-700 py-1 px-3 rounded-full text-color_4 hover:bg-cyan-700/40 hover:text-black" target="_blank" rel="noreferrer" href="https://github-api-5vs7iec2j-jacobojacome.vercel.app/">Ir a:</a></button>
+                        <h3 className={`${darkMode ? "text-cyan-700" : "text-dark_4"} font-bold mx-auto font-text`}>Search User</h3>
+                        <p className={`${darkMode ? "text-black" : "text-white"} text-justify w-3/4 mx-auto font-text`}>Busqueda de usuarios utiliazando TrieThree, un algoritmo para filtrar de manera eficiente los nombres de usuario.</p>
+                        <button className="my-2"><a className="bg-cyan-700 py-1 px-3 rounded-full text-color_4 hover:bg-cyan-700/40 hover:text-black" target="_blank" rel="noreferrer" href="https://trietree-23m31p42f-jacobojacome.vercel.app/">Ir a:</a></button>
                     </div>
                 </div>
             </div>

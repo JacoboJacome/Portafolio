@@ -8,7 +8,7 @@ import Github from "../../Assets/github-icon-1.svg"
 import Gmail from "../../Assets/gmail-icon.svg"
 import Linkedin from "../../Assets/linkedin-icon.svg"
 import CV from "../../Assets/cv.png"
-import Curriculum from "../../Assets/Jacobo Jácome.pdf"
+import Curriculum from "../../Assets/CV_Jacobo_Jacome_FullStack.pdf"
 import Foto from "../../Assets/foto.jpeg"
 
 const Footer = props => {
