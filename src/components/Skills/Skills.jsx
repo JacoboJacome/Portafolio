@@ -11,8 +11,10 @@ import BOOTSTRAP from "../../Assets/bootstrap-5-1.svg";
 import SASS from "../../Assets/sass-1.svg";
 import PostgreSQL from "../../Assets/postgresql.svg";
 import NodeJs from "../../Assets/nodejs.svg";
-import Python from "../../Assets/python-5.svg"
-import Django from "../../Assets/django-community.svg"
+import Python from "../../Assets/python-5.svg";
+import Django from "../../Assets/django-community.svg";
+import Mongo from "../../Assets/mongodb-icon-1.svg";
+import Socket from "../../Assets/socket-io.svg";
 
 const Skills = (props) => {
   const { darkMode } = props;
@@ -69,6 +71,14 @@ const Skills = (props) => {
           <img src={PostgreSQL} alt="React JS" className="my-auto p-2" />
           <span className="mx-auto font-bold">PostgreSQL</span>
         </div>
+        <div className="w-1/5 m-4 flex flex-col  md:w-1/12 bg-color_4/20 rounded-lg shadow-xl shadow-color_4/20 hover:bg-color_4/40 hover:-translate-y-2 hover:scale-150 md:hover:scale-110 transition ease-in-out delay-150 text-white/0 hover:text-white  ">
+          <img src={Mongo} alt="React JS" className="my-auto p-2" />
+          <span className="mx-auto font-bold">Mongo DB</span>
+        </div>
+        <div className="w-1/5 m-4 flex flex-col  md:w-1/12 bg-color_4/20 rounded-lg shadow-xl shadow-color_4/20 hover:bg-color_4/40 hover:-translate-y-2 hover:scale-150 md:hover:scale-110 transition ease-in-out delay-150 text-white/0 hover:text-white  ">
+          <img src={Socket} alt="React JS" className="my-auto p-2" />
+          <span className="mx-auto font-bold">Socket.io</span>
+        </div>
         <div className="w-1/5 m-4 flex flex-col md:w-1/12 bg-color_4/20 rounded-lg shadow-xl shadow-color_4/20 hover:bg-color_4/40 hover:-translate-y-2 hover:scale-110 transition ease-in-out delay-150 text-white/0 hover:text-white hover:text-xl ">
           <img src={TAILWIND} alt="Tailwind CSS" className="my-auto p-2" />
           <span className="mx-auto font-bold">Tailwind</span>
@@ -81,7 +91,6 @@ const Skills = (props) => {
           <img src={SASS} alt="Sass CSS" className="my-auto p-2" />
           <span className="mx-auto font-bold">Sass</span>
         </div>
-        
       </div>
     </div>
   );
